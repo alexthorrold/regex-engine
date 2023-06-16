@@ -1,0 +1,1 @@
+I have received Tony's permission to complete the assignment without a partner.

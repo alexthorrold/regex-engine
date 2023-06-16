@@ -1,0 +1,20 @@
+E -> E|T
+E -> ET
+E -> T
+
+T -> TF
+T -> S
+
+F -> P*
+F -> P+
+F -> P?
+F -> P
+
+P -> (E)
+P -> .
+P -> c (if c is any non meta-character or escaped meta-character)
+P -> [S]
+P -> [^S]
+
+S -> Sc
+S -> c
